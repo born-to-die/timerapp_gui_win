@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1550428180 source:c:\users\alex\source\timerapp_gui\main.cpp
+	<Windows.h>
+	<fstream>
+	<tlhelp32.h>
+	<conio.h>
+	<ctime>
+	"resource.h"
+
+1550349061 source:c:\users\alex\source\timerapp_gui\resource.rc
+	"resource.h"
+
+1550349061 c:\users\alex\source\timerapp_gui\resource.h
+
