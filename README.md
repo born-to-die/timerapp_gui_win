@@ -1,4 +1,4 @@
-# timerapp GUI WIN
+# timerapp GUI WIN (WinAPI, MFC)
 ![timerapp screen](https://raw.githubusercontent.com/born-to-die/timerapp_gui_win/master/screen_1.png)
 
 Version 2.0
