@@ -11,17 +11,21 @@ During operation, it takes the active process of the system and
 starts counting the duration of its work in seconds. When changing 
 the process does the same for him. When you press the "Escap" saves time
 
-VERSIONS
+CONTROL
 
-In the original, each time the active process was changed, the program 
-recorded the time of the past immediately to the file. In version 2, the 
-program stores all values in memory, and only after pressing the key, 
-the output unloads data to disk.
+* SAVE - save time in applications and session
+* PAUSE - stop counting
+* C - information about the current session
+* A - program for automatic download.
+* ? - program information
+* click on the background of the window - hide the program in the tray
 
+PROBLEMS
 
-This can have an unpleasant effect, if the program closes unexpectedly 
-(blackout, system errors), then all data will be lost. If this bothers you, 
-then download the project from the old branch.
+1. When loading at startup
+2. ~~When you restart the Windows shell, for example, when going to sleep and back, it disappears from the tray ~~
+3. When you turn off the computer, without turning off the program, it may not save the current session
+4. When you turn on the computer at startup, the session may not be saved
 
 SYSTEM REQUIREMENTS
 
@@ -34,6 +38,22 @@ Windows
 Программа для отслеживания времени, проведенного в других программах 
 (исполняемые файлы)
 
+УПРАВЛЕНИЕ
+
+* СОХРАНИТЬ - сохранить время в приложениях и сессию
+* ПАУЗА - прекратить счёт
+* С - информация о текущей сессии
+* А - поместить программу в автозагрузку, может попросить права администратора
+* ? - информация о программе
+* щелкнуть по фону окна - спрятать программу в трей
+
+ПРОБЛЕМЫ
+
+1. При помещении в автозагрузку может при загрузки сообщать, что это первый запуск
+2. ~~При перезагрузки оболочки Windows, например при уходе в сон и обратно, пропадает из трея~~
+3. При выключении компьютера, без выключения программы, может не сохранить текущуюю сессию
+4. При включении компьютера находясь в автозагрузке может не сохранять сессию
+
 АЛГОРИТМ
 
 Во время работы берет активный процесс системы и начинает считать 
@@ -41,17 +61,6 @@ Windows
 самое делает для него. При нажатии клавиши "Escape" сохраняет время 
 на диск в формате название_процесса.ехе.тхт, в котором указано 
 общее время работы в формате "часы минуты секунды". И так для каждого процесса. 
-
-ВЕРСИИ
-
-В оригинале, каждый раз когда изменялся активный процесс, программа записывала время 
-работы прошлой сразу в файл. В версии 2 программа хранит все значения в памяти, и только 
-после нажатия клавиши выход выгружает данные на диск.
-
-Это может иметь неприятный эффект, если программа неожиданно 
-закроется (отключение света, ошибки системы), то все данные будут потеряны. 
-
-Если это вас беспокоит, то скачайте проект из старого коммита.
 
 СИСТ. ТРЕБ. 
 
