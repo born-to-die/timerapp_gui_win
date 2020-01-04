@@ -61,4 +61,3 @@ Windows
 СИСТ. ТРЕБ. 
 
 Windows
->>>>>>> 2faa211cb0174f2366c700b1894d141a96becd30
