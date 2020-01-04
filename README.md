@@ -22,7 +22,7 @@ CONTROL
 
 PROBLEMS
 
-1. When loading at startup
+1. When placed in autoload, it may report upon startup that this is the first launch
 2. ~~When you restart the Windows shell, for example, when going to sleep and back, it disappears from the tray~~
 3. When you turn off the computer, without turning off the program, it may not save the current session
 4. When you turn on the computer at startup, the session may not be saved
